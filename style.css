@@ -1,0 +1,506 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+
+}
+:root {
+    --
+}
+
+body {
+width: 100vw;
+max-width: 100%;
+
+}
+a  {
+    text-decoration: none;
+  }
+  
+  li {
+    list-style: none;
+  }
+  
+  *img {
+   
+    width: 100%;
+    height: auto;
+  }
+  header {
+ padding: 3rem 1rem 8rem 1rem;
+  }
+
+    /** menu */
+  
+    .menu {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+      }
+      
+      .menu i {
+        font-size: 2rem;
+        color: var(--blue);
+      }
+      
+      .container-items {
+        width: 100%;
+        order: 1;
+      }
+      
+      .item {
+        text-align: center;
+        text-transform: uppercase;
+        padding: 1rem 0;
+        display: none;
+      }
+
+  
+  
+  
+    /** Section 1 about */
+
+.about-section {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.about-content {
+    
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+} 
+.about-content p {
+    font-size: 1.5rem;
+    font: weight 300px; ;
+    margin: 1rem 0 4rem 0;
+    text-align: center;
+}
+.btn {
+    background-color: blueviolet;
+    color: aliceblue;
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+}
+
+.about-img {
+    width: 50%;
+    
+ 
+
+   
+}
+.mac {
+align-items: center;
+justify-content: center;
+    width: 280px;
+    max-width: auto;
+ padding: 1rem 0;
+ }
+
+/** Section 2 */
+
+.description-section {
+    text-align: center;
+    margin:2rem;
+    padding: 2rem;
+    
+
+}
+.description-section h1 {
+  
+    padding: 1rem;
+    
+}
+
+.container-caja {
+     display: flex;
+    flex-direction: column;
+gap: 5rem;
+
+        
+}
+.container-caja h2 {
+
+    font-size: 2rem;
+    text-align: center;
+    font-weight: medium;
+    text-transform: uppercase;
+    
+}
+.container-caja p {
+    text-align: center;
+    font-size: 1.5rem;
+    max-width: 300px;
+    margin: 1.5rem auto 6rem auto;
+   
+  
+}
+
+.img-logo {
+  max-width: 200px;
+    margin-bottom: 2rem;
+    padding-top: 3rem;
+   
+   
+     }
+ 
+
+ .caja {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+   
+   
+  
+}
+/** Section 3*/
+
+.concept_section {
+
+    padding: 8rem 0;
+  
+   }
+   .concept_section h3 {
+    text-align: center;
+     font-size: 3rem;
+   }
+   .concept_section p {
+    text-align: center;
+    padding: 3rem;
+   }
+ 
+   .concept-container {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+text-align: center;
+
+
+   }
+
+.img_2 {
+    width: 20%;
+    margin-bottom: 2rem;
+    padding-top: 5rem;
+}   
+.concept {
+    margin-top: 7rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+width: 350px;
+height: 500px;
+border-radius: 3rem;
+box-shadow: 0 0 20px rgb(0,0, 0,0.1) ;
+
+}
+.concept-title {
+    text-transform: uppercase;
+    font-size: 2rem;
+    max-width: 200px;
+    margin-top: 2rem;
+    
+}
+.concept-desc{
+    font-weight: medium;
+    font-size: 1rem;
+    margin: 1rem 0;
+}
+
+/** Section 4 */
+
+.nuestros-trabajos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+.container-trabajo {
+
+
+}
+.trabajo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.foto {
+    max-width: 300px;
+    margin: 2rem;
+    border-radius: 20px;
+}
+.btn-2 {
+background-color: blue;
+
+color: aliceblue;
+padding: 1rem 2rem;
+border-radius: 1rem;
+}
+
+/** Footer */
+.final-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+padding: 5rem 0;
+}
+.contacto1 {
+    margin-bottom: 2rem;
+}
+.contacto2 {
+    max-width: 200px;
+    margin-top: 1rem 0;
+}
+.dire {
+    padding: 1rem;
+}
+.email {
+    padding: 1rem;
+}
+.tel {
+    padding: 1rem;
+}
+
+@media (min-width: 1024px) {
+
+    /* Menu */
+    .menu {
+        flex-wrap: nowrap;
+        justify-content: space-around;
+      }
+      .container-items {
+        display: flex;
+        justify-content: flex-end;
+        gap: 50px;
+      }
+      .item {
+        display: flex;
+      }
+      .btn-container {
+        display: none;
+      }
+
+    
+  
+    
+/* Section1  about*/
+.about-section {
+    flex-direction: row;
+    justify-content: center;
+    gap: 80px;
+    align-items: center;
+   
+
+}
+
+.about-content {
+    justify-content: flex-start;
+    align-items: flex-start;
+    max-width: 70%;
+margin: 2rem;
+
+
+}
+.about-content p {
+    text-align: left;
+    max-width: 700px;
+    
+}
+
+.mac{
+    max-width: 500px;
+   
+    margin: 0;
+}
+ 
+/** Section 2*/
+
+.container-caja {
+    flex-direction: row;
+    justify-content: center;
+    align-items: baseline;
+   
+
+}
+.description-section {
+    padding-bottom: 0;
+    
+    align-items: center;
+    justify-content: center;
+}
+
+.description-section p {
+    max-width: 500px;
+}
+.caja {
+}
+/** section 3 */
+
+.concept-container {
+    flex-direction: row;
+    
+}
+.concept {
+    margin: 1rem;
+}
+
+.img_2:hover {
+    transform: scale(1.2);
+    transition: all 0.5 ease-in-out;
+}
+
+/** Section 4"*/
+
+.nuestros-trabajos h3{
+    padding: 1.5rem;
+    font-size: 40px;
+ 
+}
+
+.nuestros-trabajos p {
+    padding: 2rem;
+    font-size: 20px;
+    
+}
+.container-trabajo {
+  
+    display: flex;
+
+  }
+
+.trabajo {
+    margin: 1rem;
+    
+    
+    
+}
+.foto {
+    max-width: 200px;
+   
+    }
+
+/** footer **/
+
+.container-contacto {
+   display: flex;
+    align-items: center;
+    
+    
+}
+
+.contacto1 {
+    align-items: baseline;
+    margin: 3rem;
+    
+}
+
+.contacto2 {
+    align-items: baseline;
+    margin: 3rem;
+    
+
+}
+
+.logo {
+padding-left: 200px;
+ 
+}
+}
+
+ @media (min-width:320px )  {
+ /** menu */
+ 
+    .about-content {
+   align-items: center;
+    justify-content: center;
+}
+
+    
+}
+.concept_section {
+    margin:1rem;
+    padding: 1rem;
+    
+    }
+ .concept {
+  max-width: 250px;
+  height: 350px;
+padding: 1rem;
+
+}   
+.concept h4 {
+    font-size: large;
+}
+.concept p {
+  padding: 2rem;
+}
+
+/** Section 4 **/
+.nuestros-trabajos p {
+    margin: 2rem;
+}
+.foto {
+    max-width: 250px;
+}
+/** footer **/
+.container-contacto {
+padding-top: 3rem;    
+margin: 2rem;
+
+
+}
+.contacto1 { 
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  
+    
+}
+.contacto2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 8rem;
+   
+}
+.fa-solid {
+    padding-top: 1.5rem;
+    
+}
+.logo {
+     margin: 2rem;
+   
+
+}
+
+
+}
+
+
+
+
+
+    
+
+
+
+
+
+
