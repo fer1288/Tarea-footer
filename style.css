@@ -11,8 +11,13 @@
 body {
 width: 100vw;
 max-width: 100%;
-background-image: linear-gradient( 135deg, #FFA8A8 10%, #FCFF00 100%);
+
 font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+background: #FF8008;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #FFC837, #FF8008);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #FFC837, #FF8008); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
 }
 a  {
     text-decoration: none;
